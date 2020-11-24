@@ -1,0 +1,104 @@
+* {
+    margin: 0px;
+}
+
+body {
+    width: 100%;
+    font-family: "Tempus Sans ITC";
+    text-align: center;
+
+}
+
+.image-container {
+    width: 15%;
+
+    position: absolute;
+    vertical-align: top;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+img {
+    width: 100%;
+}
+
+.add {
+    width: 6%;
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    display: inline-block;
+
+    text-align: right;
+    background-color: #b13614;
+
+}
+
+.add>input[type="submit"] {
+    width: 100px;
+
+}
+
+.select-container {
+    position: absolute;
+    margin-top: 100px;
+    text-align: center;
+    margin-left: 40%;
+
+}
+
+.table-container {
+    position: relative;
+    display: inline-block;
+    top: 180px;
+}
+
+table,
+th,
+td,
+tr {
+    border: 1px darkgrey solid;
+    border-collapse: collapse;
+    padding: 10px 15px;
+}
+
+th {
+    background-color: darkgrey;
+    font-weight: bold;
+}
+
+table tr td:nth-child(1) {
+    display: none;
+}
+
+table tr td:nth-child(6):hover {
+    border: 2px solid red;
+    cursor: pointer;
+    text-align: center;
+}
+
+tr:hover {
+    background-color: #b8b894;
+    font-weight: bold;
+}
+
+.count-container {
+    margin-top: 20px;
+}
+
+.count-row{
+    padding: 5px 0px;
+}
+
+.label {
+    display: inline-block;
+    width: 85%;
+    text-align: left;
+}
+
+.value {
+    display: inline-block;
+    /* background-color: green; */
+    text-align: right;
+    width: 14%;
+}

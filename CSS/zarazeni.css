@@ -1,0 +1,106 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    font-family: "Tempus Sans ITC";
+}
+
+.image-container {
+    width: 20%;
+    height: 20%;
+    position: relative;
+    top: 50px;
+    left: 40%;
+
+
+}
+
+img {
+    width: 100%;
+    display: inline-block;
+}
+
+.form-container {
+    height: 79%;
+    width: 450px;
+    position: relative;
+    vertical-align: top;
+    margin-top: 150px;
+    display: inline-block;
+
+}
+
+.form-wrapper {
+    width: 450px;
+
+    display: inline-block;
+}
+
+.input-item {
+    margin-top: 10px;
+    text-align: right;
+
+}
+
+.input-item input,
+select {
+    width: 300px;
+    padding: 8px 0px;
+}
+
+.input-item>input[type="submit"] {
+    background-color: grey;
+    width: 148px;
+    /* horiz-align: right; */
+    padding: 10px 0px;
+    margin-right: 2px;
+    margin-top: 15px;
+    border: 1px black solid;
+    font-family: "Tempus Sans ITC";
+    font-weight: bold;
+}
+
+.input-item>input[type="button"] {
+    background-color: grey;
+    width: 148px;
+    /* horiz-align: right; */
+    padding: 10px 0px;
+    margin-top: 15px;
+    border: 1px black solid;
+    font-family: "Tempus Sans ITC";
+    font-weight: bold;
+}
+
+.input-item>input[type="radio"] {
+    width: 43px;
+    /* horiz-align: left; */
+}
+
+.space-sm, .space-lg {
+    width: 5%;
+    display: inline-block;
+    background-color: rebeccapurple;
+}
+
+.space-lg {
+    width: 30%;
+    display: inline-block;
+    background-color: rebeccapurple;
+}
+
+.notice {
+    border-radius: 5px;
+    border: 1px solid #b13614;
+    background-color: darkgreen;
+    color: white;
+    text-align: center;
+    font-family: Arial;
+    height: 30px;
+    line-height: 30px;
+    font-size: 18px;
+}
